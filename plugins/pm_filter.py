@@ -1958,10 +1958,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton('♻️ 🅖🅡🅞🅤🅟 ♻️', url=GRP_LNK),
                 InlineKeyboardButton('⭕️ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ⭕️', url=CHNL_LNK)
             ],[
-                InlineKeyboardButton('HELP', callback_data='help'),
+                InlineKeyboardButton('⚡𝙷𝙴𝙻𝙿', callback_data='help'),
                 InlineKeyboardButton('🔰 𝙰𝙱𝙾𝚄𝚃', callback_data='about')
             ],[
-                InlineKeyboardButton('👑 𝙾𝚆𝙽𝙴𝚁', callback_data='owner_info')
+                InlineKeyboardButton('👑 𝙾𝚆𝙽𝙴𝚁', callback_data='owner_info'),
+                InlineKeyboardButton("𝚂𝙴𝙰𝚁𝙲𝙷 🔎", switch_inline_query_current_chat='')
             ]]
         else:
             buttons = [[
