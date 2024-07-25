@@ -4,13 +4,13 @@
 
 
 class script(object):
-    START_TXT = """<b>✨ ✨ 𝙷𝙴𝙻𝙻𝙾  {},
+    START_TXT = """<b> 👋 Hᴇʟʟᴏ  {},
 
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂  <a href=https://t.me/{}>{}</a>,
+Mʏ Nᴀᴍᴇ Is  <a href=https://t.me/{}>{}</a>,
 
-𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂 𝙰𝙽𝙳 𝚂𝙴𝚁𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 😍
+I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Eɴᴊᴏʏ 😍
 
-⚠️ 𝙼𝚘𝚛𝚎 𝙷𝚎𝚕𝚙 𝙲𝚑𝚎𝚌𝚔 𝙷𝚎𝚕𝚙 𝙱𝚞𝚝𝚝𝚘𝚗 𝙱𝚎𝚕𝚘𝚠</b>"""
+⚠️ ⚠️  Mᴏʀᴇ Hᴇʟᴘ Cʜᴇᴄᴋ Hᴇʟᴘ Bᴜᴛᴛᴏɴ Bᴇʟᴏᴡ</b>"""
 
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
