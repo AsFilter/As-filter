@@ -46,13 +46,13 @@ async def start(client, message):
     if len(message.command) != 2:
         if PREMIUM_AND_REFERAL_MODE == True:
             buttons = [[
-                InlineKeyboardButton('⤬ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('♻️ 🅖🅡🅞🅤🅟 ♻️', url=GRP_LNK),
-                InlineKeyboardButton('⭕️ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ⭕️', url=CHNL_LNK)
+                InlineKeyboardButton('♻️ ⒼⓇⓄⓊⓅ ♻️', url=GRP_LNK),
+                InlineKeyboardButton('⭕️𝚄𝙿𝙳𝙰𝚃𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻⭕️', url=CHNL_LNK)
             ],[
-                InlineKeyboardButton('⚡𝙷𝙴𝙻𝙿', callback_data='help'),
-                InlineKeyboardButton('🔰 𝙰𝙱𝙾𝚄𝚃', callback_data='about')
+                InlineKeyboardButton('ℹ️ 𝙷𝙴𝙻𝙿', callback_data='help'),
+                InlineKeyboardButton('😊 𝙰𝙱𝙾𝚄𝚃', callback_data='about')
             ],[
                 InlineKeyboardButton('👑 𝙾𝚆𝙽𝙴𝚁', callback_data='owner_info'),
                 InlineKeyboardButton("𝚂𝙴𝙰𝚁𝙲𝙷 🔎", switch_inline_query_current_chat='')
