@@ -49,7 +49,7 @@ async def start(client, message):
                 InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
                 InlineKeyboardButton('♻️ ⒼⓇⓄⓊⓅ ♻️', url=GRP_LNK),
-                InlineKeyboardButton('⭕️𝚄𝙿𝙳𝙰𝚃𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻⭕️', url=CHNL_LNK)
+                InlineKeyboardButton('⭕️ 🅒🅗🅐🅝🅝🅔🅛 ⭕️', url=CHNL_LNK)
             ],[
                 InlineKeyboardButton('ℹ️ 𝙷𝙴𝙻𝙿', callback_data='help'),
                 InlineKeyboardButton('😊 𝙰𝙱𝙾𝚄𝚃', callback_data='about')
