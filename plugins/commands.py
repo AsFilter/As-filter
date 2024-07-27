@@ -611,8 +611,8 @@ async def start(client, message):
             return
     if STREAM_MODE == True:
         button = [[
-            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+            InlineKeyboardButton('♻️ Gʀᴏᴜᴘ ♻️', url=f'https://t.me/{SUPPORT_CHAT}'),
+            InlineKeyboardButton('⭕️ Uᴘᴅᴀᴛᴇs ⭕️', url=CHNL_LNK)
         
     
         ],[
@@ -620,8 +620,8 @@ async def start(client, message):
         ]]
     else:
         button = [[
-            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+            InlineKeyboardButton('♻️ Gʀᴏᴜᴘ ♻️', url=f'https://t.me/{SUPPORT_CHAT}'),
+            InlineKeyboardButton('⭕️ Uᴘᴅᴀᴛᴇs ⭕️', url=CHNL_LNK)
         ],[
             
         ]]
